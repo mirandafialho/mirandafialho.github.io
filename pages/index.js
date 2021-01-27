@@ -50,7 +50,7 @@ export default function Home({ allPostsData }) {
         </ul>
       </section>
       <script type="text/javascript" src="../static/piperun.js"></script>
-      <script src="https://crmpiperun.github.io/whatsapp-gerador-lead/script.js" type="text/javascript"></script>
+      <script src="https://crmpiperun.github.io/whatsapp-gerador-lead/script.min.js" type="text/javascript"></script>
     </Layout>
   )
 }
