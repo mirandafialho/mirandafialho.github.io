@@ -50,7 +50,7 @@ export default function Home({ allPostsData }) {
         </ul>
       </section>
       <script type="text/javascript" src="../static/piperun.js"></script>
-      <script src="https://wa.tools.crmpiperun.com/script.min.js" type="text/javascript"></script>
+      <script src="https://whats.tools.crmpiperun.com/script.min.js" type="text/javascript"></script>
     </Layout>
   )
 }
