@@ -18,5 +18,3 @@ Levei quase 4 horas (sério) para instalar o Arch Linux. Era a primeira vez e me
 Agora falta fazer o setup de desenvolvimento e começar a codar de verdade.
 
 Obs.: Não tinha wallpaper melhor para colocar no SO.
-
-![Casa japonesa com um gato deitado](cat.jpg)
