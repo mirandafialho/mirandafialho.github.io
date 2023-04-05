@@ -16,5 +16,3 @@ Pena que não tenho placa de vídeo no momento, mas espero comprar uma RTX 3060 
 Levei quase 4 horas (sério) para instalar o Arch Linux. Era a primeira vez e mesmo com experiência levei um bom tempo. A culpa disso tudo é do GRUB, mas levo hoje como um grande aprendizado e fico feliz de ter instalado um Linux do zero usando o tutorial oficial e um vídeo do DioLinux como tutorial guia pra instalar a interface gráfica.
 
 Agora falta fazer o setup de desenvolvimento e começar a codar de verdade.
-
-Obs.: Não tinha wallpaper melhor para colocar no SO.

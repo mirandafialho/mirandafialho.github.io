@@ -23,13 +23,10 @@ export default function Home({ allPostsData }) {
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-L7CBVL47XG"></script>
         <script src="../static/gtag.js"></script>
       </Head>
-      <section className={utilStyles.headingMd}>
-        <p>
-          Programador, cantor amador e chefe de cozinha nas horas vagas.
-        </p>
-      </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Blog</h2>
+        <h2 className={utilStyles.headingLg}>
+          Posts
+        </h2>
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title }) => (
             <li className={utilStyles.listItem} key={id}>
