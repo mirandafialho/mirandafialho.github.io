@@ -25,8 +25,7 @@ export default function Home({ allPostsData }) {
       </Head>
       <section className={utilStyles.headingMd}>
         <p>
-          Programador fullstack e analista de banco de dados. Guitarrista amador
-          e chefe de cozinha nas horas vagas.
+          Programador, cantor amador e chefe de cozinha nas horas vagas.
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
@@ -45,8 +44,6 @@ export default function Home({ allPostsData }) {
           ))}
         </ul>
       </section>
-      <script type="text/javascript" src="../static/piperun.js"></script>
-      <script src="https://whats.tools.crmpiperun.com/script.min.js" type="text/javascript"></script>
     </Layout>
   )
 }
