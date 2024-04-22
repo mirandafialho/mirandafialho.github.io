@@ -5,19 +5,18 @@ use Illuminate\Support\Str;
 return [
     'baseUrl' => '',
     'production' => false,
-    'siteName' => 'Blog Starter Template',
-    'siteDescription' => 'Generate an elegant blog with Jigsaw',
-    'siteAuthor' => 'Author Name',
+    'siteName' => 'Miranda Fialho Blog',
+    'siteDescription' => 'Vamos ver até onde este tech blog pode chegar',
+    'siteAuthor' => 'Yuri Miranda Fialho',
 
-    // collections
     'collections' => [
         'posts' => [
-            'author' => 'Author Name', // Default author, if not provided in a post
+            'author' => 'Yuri Miranda Fialho',
             'sort' => '-date',
-            'path' => 'blog/{filename}',
+            'path' => 'post/{filename}',
         ],
         'categories' => [
-            'path' => '/blog/categories/{filename}',
+            'path' => '/posts/categories/{filename}',
             'posts' => function ($page, $allPosts) {
                 return $allPosts->filter(function ($post) use ($page) {
                     return $post->categories ? in_array($page->getFilename(), $post->categories, true) : false;
@@ -26,7 +25,6 @@ return [
         ],
     ],
 
-    // helpers
     'getDate' => function ($page) {
         return Datetime::createFromFormat('U', $page->date);
     },

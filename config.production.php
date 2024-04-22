@@ -1,6 +1,6 @@
 <?php
 
 return [
-    'baseUrl' => 'https://jigsaw-blog-template.tighten.co',
+    'baseUrl' => 'https://mirandafialho.com',
     'production' => true,
 ];
