@@ -1,6 +1,6 @@
 <?php
 
 return [
-    'baseUrl' => 'https://mirandafialho.com',
+    'baseUrl' => 'https://mirandafialho.dev',
     'production' => true,
 ];

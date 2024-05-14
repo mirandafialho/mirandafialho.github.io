@@ -5,10 +5,9 @@ use Illuminate\Support\Str;
 return [
     'baseUrl' => '',
     'production' => false,
-    'siteName' => 'Miranda Fialho Blog',
-    'siteDescription' => 'Vamos ver até onde este tech blog pode chegar',
+    'siteName' => 'Miranda Fialho\'s Blog',
+    'siteDescription' => 'Can we see where this tech blog will go?',
     'siteAuthor' => 'Yuri Miranda Fialho',
-
     'collections' => [
         'posts' => [
             'author' => 'Yuri Miranda Fialho',
@@ -16,7 +15,7 @@ return [
             'path' => 'post/{filename}',
         ],
         'categories' => [
-            'path' => '/posts/categories/{filename}',
+            'path' => '/categories/{filename}',
             'posts' => function ($page, $allPosts) {
                 return $allPosts->filter(function ($post) use ($page) {
                     return $post->categories ? in_array($page->getFilename(), $post->categories, true) : false;
@@ -24,7 +23,6 @@ return [
             },
         ],
     ],
-
     'getDate' => function ($page) {
         return Datetime::createFromFormat('U', $page->date);
     },
