@@ -14,7 +14,8 @@
         <title>{{ $page->title ?  $page->title . ' | ' : '' }}{{ $page->siteName }}</title>
 
         <link rel="home" href="{{ $page->baseUrl }}">
-        <link rel="icon" href="/favicon.ico">
+        <link rel="canonical" href="{{ $page->getUrl() }}">
+        <link rel="icon" href="/assets/img/favicon.ico">
         <link href="/blog/feed.atom" type="application/atom+xml" rel="alternate" title="{{ $page->siteName }} Atom Feed">
 
         @if ($page->production)
@@ -25,14 +26,14 @@
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
     </head>
 
-    <body class="flex flex-col justify-between min-h-screen bg-gray-100 text-gray-800 leading-normal font-sans">
-        <header class="flex items-center shadow bg-white border-b h-24 py-4" role="banner">
+    <body class="flex flex-col justify-between min-h-screen bg-gray-900 text-gray-100 leading-normal font-sans">
+        <header class="flex items-center shadow bg-gray-800 border-b border-gray-600 h-24 py-4" role="banner">
             <div class="container flex items-center max-w-8xl mx-auto px-4 lg:px-8">
                 <div class="flex items-center">
                     <a href="/" title="{{ $page->siteName }} home" class="inline-flex items-center">
-                        <img class="h-8 md:h-10 mr-3" src="/assets/img/logo.svg" alt="{{ $page->siteName }} logo" />
+                        <img class="h-8 md:h-10 mr-3 rounded-full" src="/assets/img/yuri.jpg" alt="{{ $page->siteName }} logo" />
 
-                        <h1 class="text-lg md:text-2xl text-blue-800 font-semibold hover:text-blue-600 my-0">{{ $page->siteName }}</h1>
+                        <h1 class="text-lg md:text-2xl text-blue-400 font-semibold hover:text-blue-800 my-0">{{ $page->siteName }}</h1>
                     </a>
                 </div>
 
@@ -52,9 +53,9 @@
             @yield('body')
         </main>
 
-        <footer class="bg-white text-center text-sm mt-12 py-4" role="contentinfo">
+        <footer class="bg-gray-800 text-center text-sm mt-12 py-4" role="contentinfo">
             <ul class="flex flex-col md:flex-row justify-center list-none">
-                <li class="md:mr-2">
+                <li class="md:mr-1">
                     &copy; 2024 - {{ date('Y') }} Yuri Miranda Fialho. All rights reserved.
                 </li>
 

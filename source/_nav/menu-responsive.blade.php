@@ -1,10 +1,10 @@
-<nav id="js-nav-menu" class="w-auto px-2 pt-6 pb-2 bg-gray-200 shadow hidden lg:hidden">
+<nav id="js-nav-menu" class="w-auto px-2 pt-6 pb-2 bg-gray-800 shadow hidden lg:hidden">
     <ul class="my-0">
         <li class="pl-4">
             <a
                 title="{{ $page->siteName }} Home"
                 href="/"
-                class="block mt-0 mb-4 text-sm no-underline {{ $page->isActive('/') ? 'active text-blue-500' : 'text-gray-800 hover:text-blue-500' }}"
+                class="block mt-0 mb-4 text-sm no-underline {{ $page->isActive('/') ? 'active text-blue-800' : 'text-blue-400 hover:text-blue-800' }}"
             >
                 Home
             </a>
@@ -12,19 +12,23 @@
         <li class="pl-4">
             <a
                 title="{{ $page->siteName }} About"
-                href="/about"
-                class="block mt-0 mb-4 text-sm no-underline {{ $page->isActive('/about') ? 'active text-blue-500' : 'text-gray-800 hover:text-blue-500' }}"
+                href="https://about.me/mirandafialho"
+                target="_blank"
+                rel="nofollow"
+                class="block mt-0 mb-4 text-sm no-underline text-blue-400 hover:text-blue-800"
             >
-                About
+                About me
             </a>
         </li>
         <li class="pl-4">
             <a
-                title="{{ $page->siteName }} Contact"
-                href="/contact"
-                class="block mt-0 mb-4 text-sm no-underline {{ $page->isActive('/contact') ? 'active text-blue-500' : 'text-gray-800 hover:text-blue-500' }}"
+                title="{{ $page->siteName }} YouTube channel"
+                href="https://www.youtube.com/@mirandafialho"
+                target="_blank"
+                rel="nofollow"
+                class="block mt-0 mb-4 text-sm no-underline text-blue-400 hover:text-blue-800"
             >
-                Contact
+                YouTube
             </a>
         </li>
     </ul>

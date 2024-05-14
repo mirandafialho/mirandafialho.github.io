@@ -2,9 +2,12 @@
 extends: _layouts.post
 section: content
 title: My First Blog Post
-date: 2022-07-20
-description: This is your first blog post.
-cover_image: /assets/img/post-cover-image-2.png
+date: 2024-05-14
+description: This is my first blog post.
+cover_image: /assets/img/hacking.jpg
+excerpt: I started at all today.
 ---
 
-This is the start of your first blog post.
+I started at all today. Buying a domain and made this blog, not for scratch because I using [Jigsaw](https://jigsaw.tighten.co).
+
+Thanks for all of you for support and let's get started.
