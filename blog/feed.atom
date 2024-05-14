@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>Miranda Fialho&#039;s Blog</title>
+    <link href="https://mirandafialho.dev/blog" />
+    <link type="application/atom+xml" rel="self" href="https://mirandafialho.dev/blog/feed.atom" />
+    <updated>2024-05-14T02:13:21+00:00</updated>
+    <id>https://mirandafialho.dev/blog/feed.atom</id>
+    <author>
+        <name>Yuri Miranda Fialho</name>
+    </author>
+                <entry>
+    <id>https://mirandafialho.dev/post/my-first-blog-post</id>
+    <link type="text/html" rel="alternate" href="https://mirandafialho.dev/post/my-first-blog-post" />
+    <title>My First Blog Post</title>
+    <published>2024-05-14T00:00:00+00:00</published>
+    <updated>2024-05-14T00:00:00+00:00</updated>
+    <author>
+        <name>Yuri Miranda Fialho</name>
+    </author>
+    <summary type="html">I started at all today....</summary>
+    <content type="html"><![CDATA[
+        <p>I started at all today. Buying a domain and made this blog, not for scratch because I using <a href="https://jigsaw.tighten.co">Jigsaw</a>.</p>
+
+<p>Thanks for all of you for support and let's get started.</p>
+    ]]></content>
+</entry>
+    </feed>

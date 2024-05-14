@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+ <url>
+  <loc>https://mirandafialho.dev/post/my-first-blog-post</loc>
+  <lastmod>2024-05-14T02:13:21+00:00</lastmod>
+  <changefreq>daily</changefreq>
+ </url>
+ <url>
+  <loc>https://mirandafialho.dev</loc>
+  <lastmod>2024-05-14T02:13:21+00:00</lastmod>
+  <changefreq>daily</changefreq>
+ </url>
+ <url>
+  <loc>https://mirandafialho.dev/categories/configuration</loc>
+  <lastmod>2024-05-14T02:13:21+00:00</lastmod>
+  <changefreq>daily</changefreq>
+ </url>
+ <url>
+  <loc>https://mirandafialho.dev/categories/feature</loc>
+  <lastmod>2024-05-14T02:13:21+00:00</lastmod>
+  <changefreq>daily</changefreq>
+ </url>
+ <url>
+  <loc>https://mirandafialho.dev/blog/feed.atom</loc>
+  <lastmod>2024-05-14T02:13:21+00:00</lastmod>
+  <changefreq>daily</changefreq>
+ </url>
+</urlset>
