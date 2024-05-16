@@ -4,7 +4,7 @@
         "dev": "mix",
         "watch": "mix watch",
         "prod": "mix --production",
-        "deploy": "mix --production && git add buid_production && git commit -m \"Build deploy\" && git subtree push --prefix build_production origin gh-pages"
+        "deploy": "mix --production && git add build_production && git commit -m \"Build deploy\" && git subtree push --prefix build_production origin gh-pages"
     },
     "devDependencies": {
         "autoprefixer": "^10.4.13",
