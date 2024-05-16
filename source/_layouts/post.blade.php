@@ -44,4 +44,13 @@
             @endif
         </div>
     </nav>
+
+    <script src="https://utteranc.es/client.js"
+            repo="mirandafialho/mirandafialho.github.io"
+            issue-term="pathname"
+            label="Comment 💬"
+            theme="github-dark"
+            crossorigin="anonymous"
+            async>
+    </script>
 @endsection
