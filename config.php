@@ -5,8 +5,8 @@ use Illuminate\Support\Str;
 return [
     'baseUrl' => '',
     'production' => false,
-    'siteName' => 'Miranda Fialho\'s Blog',
-    'siteDescription' => 'Can we see where this tech blog will go?',
+    'siteName' => 'Miranda Fialho Blog',
+    'siteDescription' => 'Um blog de tecnologia que fala sobre programação, Linux e variedades tech.',
     'siteAuthor' => 'Yuri Miranda Fialho',
     'collections' => [
         'posts' => [

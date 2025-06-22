@@ -6,7 +6,7 @@
                 href="/"
                 class="block mt-0 mb-4 text-sm no-underline {{ $page->isActive('/') ? 'active text-blue-800' : 'text-blue-400 hover:text-blue-800' }}"
             >
-                Home
+                Início
             </a>
         </li>
         <li class="pl-4">
@@ -17,7 +17,17 @@
                 rel="nofollow"
                 class="block mt-0 mb-4 text-sm no-underline text-blue-400 hover:text-blue-800"
             >
-                About me
+                Sobre mim
+            </a>
+        </li>
+        <li class="pl-4">
+            <a
+               title="Gerador de Senha Online"
+               href="https://geradoresdesenha.com.br"
+               target="_blank"
+               class="block mt-0 mb-4 text-sm no-underline text-blue-400 hover:text-blue-800"
+            >
+                Gerador de Senha
             </a>
         </li>
         <li class="pl-4">

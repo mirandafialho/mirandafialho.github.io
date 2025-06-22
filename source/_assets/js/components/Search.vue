@@ -4,7 +4,7 @@
             class="absolute md:relative w-full justify-end bg-gray-800 left-0 top-0 z-10 mt-7 md:mt-0 px-4 md:px-0"
             :class="{'hidden md:flex': ! searching}"
         >
-            <label for="search" class="hidden">Search</label>
+            <label for="search" class="hidden">Pesquisar</label>
 
             <input
                 id="search"
@@ -14,7 +14,7 @@
                 :class="{ 'transition-border': query }"
                 autocomplete="off"
                 name="search"
-                placeholder="Search"
+                placeholder="Pesquisar"
                 type="text"
                 @keyup.esc="reset"
                 @blur="reset"
@@ -47,7 +47,7 @@
                             v-if="! results.length"
                             class="bg-gray-800 w-full hover:bg-blue-600 border-b border-blue-200 rounded-b-lg shadow cursor-pointer p-4"
                         >
-                            <p class="my-0">No results for <strong>{{ query }}</strong></p>
+                            <p class="my-0">Sem resultados para <strong>{{ query }}</strong></p>
                         </div>
                     </div>
                 </div>
@@ -55,7 +55,7 @@
         </div>
 
         <button
-            title="Start searching"
+            title="Comece a pesquisa"
             type="button"
             class="flex md:hidden bg-gray-100 hover:bg-blue-100 justify-center items-center border border-gray-500 rounded-full focus:outline-none h-10 px-3"
             @click.prevent="showInput"

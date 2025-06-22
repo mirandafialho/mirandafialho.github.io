@@ -2,6 +2,15 @@
 
 @php
     $page->type = 'article';
+
+    $formatter = new IntlDateFormatter(
+        'pt_BR',
+        IntlDateFormatter::LONG, // For full month name (e.g., "janeiro")
+        IntlDateFormatter::NONE,
+        'America/Sao_Paulo', // Or your specific timezone if different from server default
+        IntlDateFormatter::GREGORIAN,
+        'dd \'de\' MMMM \'de\' yyyy' // Custom pattern to match "10 de janeiro de 2025"
+    );
 @endphp
 
 @section('body')
@@ -11,13 +20,13 @@
 
     <h1 class="leading-none mb-2">{{ $page->title }}</h1>
 
-    <p class="text-gray-200 text-xl md:mt-0">{{ $page->author }}  •  {{ date('F j, Y', $page->date) }}</p>
+    <p class="text-gray-200 text-xl md:mt-0">{{ $page->author }}  •  {{ $formatter->format($page->date) }}</p>
 
     @if ($page->categories)
         @foreach ($page->categories as $i => $category)
             <a
                 href="{{ '/categories/' . $category }}"
-                title="View posts in {{ $category }}"
+                title="Veja mais postagens em {{ $category }}"
                 class="inline-block bg-blue-200 hover:bg-blue-400 leading-loose tracking-wide text-blue-400 hover:text-blue-200 uppercase text-xs font-semibold rounded mr-4 px-3 pt-px"
             >{{ $category }}</a>
         @endforeach
@@ -30,7 +39,7 @@
     <nav class="flex justify-between text-sm md:text-base">
         <div>
             @if ($next = $page->getNext())
-                <a href="{{ $next->getUrl() }}" title="Older Post: {{ $next->title }}">
+                <a href="{{ $next->getUrl() }}" title="Postagem antiga: {{ $next->title }}">
                     &LeftArrow; {{ $next->title }}
                 </a>
             @endif
@@ -38,7 +47,7 @@
 
         <div>
             @if ($previous = $page->getPrevious())
-                <a href="{{ $previous->getUrl() }}" title="Newer Post: {{ $previous->title }}">
+                <a href="{{ $previous->getUrl() }}" title="Nova postagem: {{ $previous->title }}">
                     {{ $previous->title }} &RightArrow;
                 </a>
             @endif

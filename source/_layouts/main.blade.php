@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -56,12 +56,12 @@
         <footer class="bg-gray-800 text-center text-sm mt-12 py-4" role="contentinfo">
             <ul class="flex flex-col md:flex-row justify-center list-none">
                 <li class="md:mr-1">
-                    &copy; 2024 - {{ date('Y') }} Yuri Miranda Fialho. All rights reserved.
+                    &copy; 2024 - {{ date('Y') }} Yuri Miranda Fialho. Todos os direitos reservados.
                 </li>
 
                 <li>
-                    Built with <a href="http://jigsaw.tighten.co" title="Jigsaw by Tighten">Jigsaw</a>
-                    and <a href="https://tailwindcss.com" title="Tailwind CSS, a utility-first CSS framework">Tailwind CSS</a>.
+                    Construído com <a href="http://jigsaw.tighten.co" title="Jigsaw by Tighten">Jigsaw</a>
+                    e <a href="https://tailwindcss.com" title="Tailwind CSS, a utility-first CSS framework">Tailwind CSS</a>.
                 </li>
             </ul>
         </footer>
@@ -79,8 +79,5 @@
 
           gtag('config', 'G-EV0C5MJ02X');
         </script>
-
-        <script type="text/javascript">window.piperun_data = {"form":{"header":{"text":"Venha bater um papo comigo","background_color":"#075E54","color":"#FFFFFF"},"content":{"fields":[{"field":"name","template":"pessoa.nome","type":"Pessoa","name":"Nome","id":"item_17","required":true},{"field":"email","template":"pessoa.email","type":"Pessoa","name":"E-mail","id":"item_18","required":true},{"field":"mobile_phone","template":"pessoa.telefone","type":"Pessoa","name":"Celular","id":"item_19","required":false},{"field":"notes","template":"oportunidade.mensagem","type":"Oportunidade","name":"Mensagem","id":"item_0","required":false}],"background_color":"#ECE5DD","color":"#2F2F2F"},"button":{"text":"Enviar","background_color":"#4FCE5D","color":"#FFFFFF"},"accept":{"text":"Eu concordo em receber comunicações de ofertas personalizadas de acordo com meus interesses.","color":"#2F2F2F"},"logo":{"color":"#25D366"}},"enterprise":"false","hash":"7339c47b-807b-4726-9981-3e6b6e334e0c","position":"bottom_right","origin":"Formulário Site","tags":["Alakazan","Teste Yuri"],"title":"@{{ pessoa.nome }}: @{{ oportunidade.data }}","contact_phone":"55991637123","success_page_url":"","rules":{"update":"false","filter_status_update":"open","filter_situation_update":"unfreezed","equal_pipeline":true,"status":"open","situation":"unfreezed","validate_cpf":"false","validate_cnpj":"false"}};</script>
-        <script src="https://whats.tools.crmpiperun.com/script.min.js" type="text/javascript"></script>
     </body>
 </html>

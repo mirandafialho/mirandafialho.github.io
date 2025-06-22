@@ -1,6 +1,6 @@
 ---
-title: Home
-description: The list of blog posts for the site
+title: Início
+description: A lista de postagens para o blog de tecnologia
 pagination:
     collection: posts
     perPage: 4
@@ -21,7 +21,7 @@ pagination:
             @if ($previous = $pagination->previous)
                 <a
                     href="{{ $previous }}"
-                    title="Previous Page"
+                    title="Página anterior"
                     class="bg-blue-400 hover:bg-blue-800 text-gray-100 hover:text-gray-200 rounded mr-3 px-5 py-3"
                 >&LeftArrow;</a>
             @endif
@@ -29,7 +29,7 @@ pagination:
             @foreach ($pagination->pages as $pageNumber => $path)
                 <a
                     href="{{ $path }}"
-                    title="Go to Page {{ $pageNumber }}"
+                    title="Vá para a página {{ $pageNumber }}"
                     class="bg-blue-400 hover:bg-blue-800 text-gray-100 hover:text-gray-200 rounded mr-3 px-5 py-3 {{ $pagination->currentPage == $pageNumber ? 'text-blue-600' : 'text-blue-700' }}"
                 >{{ $pageNumber }}</a>
             @endforeach
@@ -37,7 +37,7 @@ pagination:
             @if ($next = $pagination->next)
                 <a
                     href="{{ $next }}"
-                    title="Next Page"
+                    title="Próxima página"
                     class="bg-blue-400 hover:bg-blue-800 text-gray-100 hover:text-gray-200 rounded mr-3 px-5 py-3"
                 >&RightArrow;</a>
             @endif
