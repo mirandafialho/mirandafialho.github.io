@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <title>Miranda Fialho&#039;s Blog</title>
+    <title>Miranda Fialho Blog</title>
     <link href="https://mirandafialho.dev/blog" />
     <link type="application/atom+xml" rel="self" href="https://mirandafialho.dev/blog/feed.atom" />
-    <updated>2024-10-30T23:28:17+00:00</updated>
+    <updated>2025-06-22T02:37:08+00:00</updated>
     <id>https://mirandafialho.dev/blog/feed.atom</id>
     <author>
         <name>Yuri Miranda Fialho</name>
